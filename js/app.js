@@ -24,9 +24,9 @@ function initGame() {
   );
   eatFoodSound.volume = 0.1;
   let gameLoopSound = new Audio("651670__code_box__desert-snake.wav");
-  gameLoopSound.volume = 0.05;
+  gameLoopSound.volume = 0.07;
   let gameOverSound = new Audio("703542__yoshicakes77__dead.ogg");
-  gameOverSound.volume = 0.05;
+  gameOverSound.volume = 0.07;
 
   // ? Create food and starting point variables
   let food;
