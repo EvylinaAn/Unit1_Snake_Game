@@ -85,9 +85,9 @@ function initGame() {
   }
 
   function generateRandomFood() {
-    food = Math.floor(Math.random() * 400);
-    cells[food].classList.add("snakeFood");
-    cells[food].style.backgroundColor = randomFoodColor();
+        food = Math.floor(Math.random() * 400);
+        cells[food].classList.add("snakeFood");
+        cells[food].style.backgroundColor = randomFoodColor();
   }
 
   function removeFoodFromSnake() {
@@ -108,11 +108,7 @@ function initGame() {
     cells[food].style.backgroundColor = "";
   }
 
-  let snakeHead = currentPosition[0];
-  let snakeBody = currentPosition.slice(1);
-
   function addSnake() {
-    // currentPosition.forEach((snake) => cells[snake].classList.add("snake"));
     const [snakeHead, ...snakeBody] = currentPosition;
     cells[snakeHead].classList.add("snakeHead");
     snakeBody.forEach((snakeIndex) => {
@@ -121,7 +117,6 @@ function initGame() {
   }
 
   function removeSnake() {
-    // currentPosition.forEach((snake) => cells[snake].classList.remove("snake"));
     const [snakeHead, ...snakeBody] = currentPosition;
     cells[snakeHead].classList.remove("snakeHead");
     snakeBody.forEach((snakeIndex) => {
@@ -256,3 +251,4 @@ function initGame() {
 
 let scoresArr = [];
 window.addEventListener("DOMContentLoaded", initGame);
+

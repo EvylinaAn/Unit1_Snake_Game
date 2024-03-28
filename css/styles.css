@@ -4,7 +4,6 @@
 
 body {
   background-color: black;
-  /* background-image: url("https://img.freepik.com/free-vector/detailed-jungle-background_23-2148953379.jpg?w=1480&t=st=1702643705~exp=1702644305~hmac=339c5e5cc8e2a23e0f66b8c1cd87d702808ce3e85cbd7692d48aa41ab09bc7d6"); */
   background-size: cover;
   background-image: url('../assets/5386360.jpg');
   color: #fff;
@@ -90,6 +89,7 @@ h2 span {
 
 .snakeFood {
   /* background-color: red; */
+  background-image: url('../assets/—Pngtree—red apple fruit vector art_8391169.png');
   border-radius: 50%;
   z-index: 0;
   transition: all 0.2s ease-in;
@@ -130,7 +130,6 @@ h2 span {
   /* padding: 15vmin; */
   margin-top: 6.5vmin;
   width: 600px;
-  /* height: 600px; */
   font-size: 50px;
   opacity: 0;
   z-index: -1;
